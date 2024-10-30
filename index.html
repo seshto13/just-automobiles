@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automobile Site</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="icon" href="./assets/car1.jpeg" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+       
+            <li>J<span style="color: skyblue">AUTOS</span></li>
+
+        <a href="index.html"><li>Home</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+
+    <div class="main">
+      <h1>Just AutoMobiles</h1>
+      <div class="services" id="ourServices">
+        
+      </div>
+
+      <div style="text-align: left; ">
+      <h3 style="margin-top: 50px;">About Us</h3>
+      <p class="content">
+        At Just Automobiles, we are passionate about revolutionizing the automotive industry by delivering high-quality vehicles that blend cutting-edge technology, exceptional performance, and unparalleled safety. Founded with a vision to make driving an extraordinary experience, our commitment to excellence drives everything we do.
+</p>
+
+<h3 style="margin-top: 50px;">Our Mission</h3>
+<p class="">
+    Our mission is simple: to provide innovative automotive solutions that cater to the diverse needs of our customers. We believe that every journey should be enjoyable, whether you’re commuting to work, embarking on a family road trip, or exploring new terrains. We strive to create vehicles that inspire confidence, comfort, and joy.
+</p>
+
+<h3 style="margin-top: 50px;">Our Vehicles</h3>
+<p class="">
+    Just Automobiles offers a wide range of vehicles, from compact cars to spacious SUVs and high-performance sports cars. Each model is engineered with precision, featuring state-of-the-art technology and fuel-efficient options. We prioritize sustainability, offering electric and hybrid models that reduce environmental impact without compromising on performance.
+</p>
+
+<h3 style="margin-top: 50px;">Just Automobiles: Driving Innovation and Excellence</h3>
+<p class="">
+    At Just Automobiles, we are passionate about revolutionizing the automotive industry by delivering high-quality vehicles that blend cutting-edge technology, exceptional performance, and unparalleled safety. Founded with a vision to make driving an extraordinary experience, our commitment to excellence drives everything we do.
+</p>
+
+<h3 style="margin-top: 50px;">Customer Commitment</h3>
+<p class="">
+    We understand that our customers are at the core of our success. Our team is committed to providing exceptional service, from the moment you step into our showrooms to long after you’ve driven off the lot. We offer comprehensive warranties, maintenance plans, and customer support, ensuring your experience with Just Automobiles is seamless and satisfying.
+
+</p>
+    </div>
+        
+ <br>   
+<h2>Our Vehicles</h2>
+      <div class="image" id="buyNow">
+        <div class="image-container" id="buyMe">
+          <img src="./assets/car1.jpeg" alt="car 1" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car1.jpeg" alt="car 1" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car4.jpg" alt="car 3" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car4.jpg" alt="car 3" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car4.jpg" alt="car 3" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+        <div class="image-container">
+          <img src="./assets/car2.jpeg" alt="car 2" />
+          <button onclick="showMessage()">Buy now</button>
+        </div>
+      </div>
+
+      <div class="main2">
+        <div class="form-container" id="contact">
+          <br />
+          <h2 class="h2-form">LEAVE A MESSAGE</h2>
+
+          <form
+            class="contact-feedback-form"
+            id="contact-form"
+            onsubmit="validateContact(event)"
+          >
+            <input
+              type="text"
+              class="contact-name"
+              name="contact-name"
+              id="contactName"
+              placeholder="Your name"
+            />
+            <span id="contactNameError" class="error"></span>
+
+            <input
+              type="email"
+              class="contact-email"
+              name="contact-email"
+              id="contactEmail"
+              placeholder="Enter Your Email"
+            />
+            <span id="contactEmailError" class="error"></span>
+
+            <textarea
+              name="message"
+              id="contactMessage"
+              class="contact-textarea"
+              placeholder="Your Message"
+            ></textarea>
+            <span id="contactMessageError" class="error"></span>
+
+            <input
+              type="submit"
+              class="contact-submit"
+              value="SUBMIT YOUR MESSAGE"
+            />
+          </form>
+        </div>
+        <br />
+
+        <br />
+        <br />
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Just Automobiles.....reserved &copy:2024</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

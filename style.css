@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  width: 100%;
+  background-color: skyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: blue;
+}
+
+.services {
+  text-align: left;
+}
+
+.services h2 {
+  font-size: 25px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  line-height: 24px;
+  font-size: 16px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  padding: 1px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 50px;
+}
+
+.image .image-container {
+ 
+  border: 0px solid rgb(72, 165, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: px;
+}
+
+.image .image-container:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: px;
+  }
+
+.image .image-container button {
+  width: auto;
+  margin: 5px;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.image .image-container button:hover {
+  width: auto;
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(4, 88, 122);
+  cursor: pointer;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  width: 260px;
+}
+img:hover {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  padding: 30px;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 70px;
+  padding-left:;
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  img {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 2rem;
+  }
+
+  img {
+    width: 90%;
+  }
+
+ 
+  
+}
