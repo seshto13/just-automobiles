@@ -45,12 +45,12 @@
     height: 150px;
   }
   .main2 .form-container .contact-feedback-form .contact-submit {
-    background-color: rgb(72, 165, 241);
+    background-color: rgb(1, 98, 177);
     color: white;
   }
   .main2 .form-container .contact-feedback-form .contact-submit:hover {
-    background-color: rgb(72, 165, 241);
-    color: black;
+    background-color: rgb(72, 162, 235);
+    color: white;
   }
   
   .contact-info {
@@ -71,7 +71,7 @@
     justify-content: center;
     border: bolder;
     color: black;
-    /* background-color: rgba(204, 211, 214, 0.473); */
+   
   }
   .form-container .p-address,
   .address .p-address {

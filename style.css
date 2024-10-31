@@ -30,7 +30,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 30px;
-  color: blue;
+  color: rgb(1, 98, 177);
 }
 
 .services {
@@ -62,7 +62,7 @@ p {
 
 .image .image-container {
  
-  border: 0px solid rgb(72, 165, 241);
+  border: 0px solid rgb(1, 98, 177);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,7 +82,7 @@ p {
   padding: 7px 15px 7px 15px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(72, 165, 241);
+  background-color: rgb(1, 98, 177);
   color: white;
   cursor: pointer;
 }
@@ -93,7 +93,7 @@ p {
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
   background-color: white;
-  color:rgb(72, 165, 241);
+  color:rgb(1, 98, 177);
   cursor: pointer;
 }
 
@@ -117,7 +117,7 @@ img:hover {
   color: white;
   width: 100%;
   height: 70px;
-  padding-left:;
+  
 }
 
 @media screen and (max-width: 1024px) {
