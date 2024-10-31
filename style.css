@@ -22,7 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 70px;
 
 }
 
@@ -82,7 +82,7 @@ p {
   padding: 7px 15px 7px 15px;
   border: none;
   border-radius: 5px;
-  background-color: blue;
+  background-color: rgb(72, 165, 241);
   color: white;
   cursor: pointer;
 }
@@ -92,7 +92,8 @@ p {
   margin: 5px;
   padding: 10px 15px 10px 15px;
   border-radius: 5px;
-  background-color: rgb(4, 88, 122);
+  background-color: white;
+  color:rgb(72, 165, 241);
   cursor: pointer;
 }
 
